@@ -40,7 +40,7 @@ Dự án này xây dựng một hệ thống quản lý thư viện hỗ trợ c
 ## 📦 Cài đặt
 1. Clone repo:
    ```bash
-   git clone https://github.com/bdu-fira/22050034_QuachThiThu_CD1.git
+   git clone https://github.com/bdu-fira/22050044_PhanVanLoc_CD1
    
 2. Cài đặt môi trường:
     - Các thư viện gồm:
