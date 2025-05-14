@@ -1,25 +1,30 @@
 # 📚 Hệ Thống Quản Lý Thư Viện Trường Đại Học Bình Dương
 
+# Thành viên nhóm
+- Quách Thị Thu - 22050034
+- Hạ Văn Minh - 22050076
+- Phan Văn Lộc - 22050044
+
 ## 📝 Mô tả
 Dự án này xây dựng một hệ thống quản lý thư viện hỗ trợ các chức năng như quản lý độc giả, tài liệu, mượn – trả sách, và quản trị người dùng. Hệ thống giúp thủ thư và admin thực hiện các nghiệp vụ một cách nhanh chóng, hiệu quả và chính xác.
 
 ## 🚀 Tính năng chính
 - Dành cho Quản trị viên (Admin)
-       Quản lý duyệt độc giả
-    👤 Quản lý độc giả: Thêm, sửa, xóa, duyệt tài khoản độc giả.
+        Quản lý duyệt độc giả
+        Quản lý độc giả: Thêm, sửa, xóa, duyệt tài khoản độc giả.
         Quản lý tác giả: Thêm, sửa , xóa, tìm kiếm tác giả
-    📖 Quản lý sách: Thêm mới, chỉnh sửa thông tin sách, xóa, tìm kiếm sách theo tên/tác giả/nhà xuất bản.
-    🔄 Quản lý mượn – trả sách: Ghi nhận việc mượn và trả sách, tự động cập nhật số lượng sách còn lại.
-    🔐 Quản lý thủ thư: Thêm, sửa, xóa, tìm kiếm thủ thư, đổi mật khẩu admin
-    📊 Thống kê – báo cáo: Thống kê theo hoạt động độc giả, theo thời gian, theo số lượng sách.
+        Quản lý sách: Thêm mới, chỉnh sửa thông tin sách, xóa, tìm kiếm sách theo tên/tác giả/nhà xuất bản.
+        Quản lý mượn – trả sách: Ghi nhận việc mượn và trả sách, tự động cập nhật số lượng sách còn lại.
+        Quản lý thủ thư: Thêm, sửa, xóa, tìm kiếm thủ thư, đổi mật khẩu admin
+        Thống kê – báo cáo: Thống kê theo hoạt động độc giả, theo thời gian, theo số lượng sách.
 - Dành cho Thủ thư
-       Quản lý duyệt độc giả
-    👤 Quản lý độc giả: Thêm, sửa, xóa, duyệt tài khoản độc giả.
+        Quản lý duyệt độc giả
+        Quản lý độc giả: Thêm, sửa, xóa, duyệt tài khoản độc giả.
         Quản lý tác giả: Thêm, sửa , xóa, tìm kiếm tác giả
         Quản lý Nhà xuất bản: Thêm, sửa , xóa, tìm kiếm nhà xuất bản
-    📖 Quản lý sách: Thêm mới, chỉnh sửa thông tin sách, xóa, tìm kiếm sách theo tên/tác giả/nhà xuất bản.
-    🔄 Quản lý mượn – trả sách: Ghi nhận việc mượn và trả sách, tự động cập nhật số lượng sách còn lại.
-    📊 Thống kê – báo cáo: Thống kê theo hoạt động độc giả, theo thời gian, theo số lượng sách.
+        Quản lý sách: Thêm mới, chỉnh sửa thông tin sách, xóa, tìm kiếm sách theo tên/tác giả/nhà xuất bản.
+        Quản lý mượn – trả sách: Ghi nhận việc mượn và trả sách, tự động cập nhật số lượng sách còn lại.
+        Thống kê – báo cáo: Thống kê theo hoạt động độc giả, theo thời gian, theo số lượng sách.
 
 - Dành cho Người dùng (Độc giả)
     🔎 Tìm kiếm sách: Tìm kiếm thông tin sách trong thư viện, chỉnh sửa thông tin cá nhân
@@ -84,6 +89,7 @@ Dự án này xây dựng một hệ thống quản lý thư viện hỗ trợ c
                 });
 
                 module.exports = db;
+
     - Cài đặt các môi trường.
     - Chạy server Node.js:
             cd backend
